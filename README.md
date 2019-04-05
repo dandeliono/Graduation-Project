@@ -26,4 +26,4 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
 ### rabbitmq 
 #### 需要将rabbitmq新增的用户授权
 #### 其对应的端口号为5672 可视化端口号为15672
-> POST http://localhost:8881/actuator/bus-refresh
+> POST http://localhost:8881/actuator/bus-refresh /actuator/bus-refresh?destination=customers:**” 即刷新服务名为customers的所有服务
