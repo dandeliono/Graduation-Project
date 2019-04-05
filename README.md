@@ -5,4 +5,6 @@
 > ionic g
 
 ## 后端 spring cloud
- 通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+#### 通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+#### 
+> ribbon.eureka.enabled=true #启用负载均衡
