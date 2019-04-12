@@ -30,3 +30,4 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
 
 ### JPA
 ##### 在SQL的查询方法上面使用@Query注解，如涉及到删除和修改在需要加上@Modifying.
+> 在service层调用接口的方法的方法上添加注解@Transactional进行事务的处理,然后在调用service层的方法
