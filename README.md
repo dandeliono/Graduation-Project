@@ -29,4 +29,4 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
 > POST http://localhost:8881/actuator/bus-refresh /actuator/bus-refresh?destination=customers:**” 即刷新服务名为customers的所有服务
 
 ### JPA
-＃＃＃　在SQL的查询方法上面使用@Query注解，如涉及到删除和修改在需要加上@Modifying.
+##### 在SQL的查询方法上面使用@Query注解，如涉及到删除和修改在需要加上@Modifying.
