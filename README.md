@@ -37,3 +37,27 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
 > https://mvnrepository.com/
 
 ### withCredentials 开启可以 使请求携带cookie
+
+### invalid bound statement (not found)
+>         <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>```language
+
+```
+
