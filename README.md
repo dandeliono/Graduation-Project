@@ -39,7 +39,8 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
 ### withCredentials 开启可以 使请求携带cookie
 
 ### invalid bound statement (not found)
->         <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
+``` java
+ <!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
         <resources>
             <resource>
                 <directory>src/main/java</directory>
@@ -57,7 +58,6 @@ run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断
                 </includes>
                 <filtering>false</filtering>
             </resource>
-        </resources>```language
-
+        </resources>
 ```
 
